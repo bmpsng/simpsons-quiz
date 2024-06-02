@@ -1,0 +1,118 @@
+/* base styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    font-family: 'Gloria Hallelujah', cursive, "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #3659a2;
+    padding: 1em;
+  }
+
+header {
+  text-align: center;
+}
+
+main {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: .5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: .5em;
+}
+
+p {
+  font-size: 2.15em;
+  line-height: 1.5;
+}
+
+.question {
+  position: relative;
+  padding-left: 3em;
+  display: flex;
+  align-items: center;
+  margin: .3em;
+  font-size: 1.2rem;
+}
+
+.question label {
+  font-size: 1.4rem;
+  margin-left: .5em;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  text-align: right;
+  padding-top: 3em;
+}
+
+.button-div {
+  margin-top: 3em;
+  text-align: center;
+}
+button {
+  padding: 1em;
+  width: 250px;
+  border-radius: 10px;
+  background-color: white;
+  color: #3659a2;
+  font-size: 1.5rem;
+  transition: all .5s;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: rgb(198, 232, 243);
+}
+
+.results {
+  background-color: yellow;
+  color: darkred;
+  padding: 2em;
+  max-width: 800px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#resetBtn {
+  margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  main {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 50%;
+  }
+}
+
+
